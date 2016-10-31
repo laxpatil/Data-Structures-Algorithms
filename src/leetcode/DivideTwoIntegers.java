@@ -69,7 +69,7 @@ public class DivideTwoIntegers {
 			
 		
 		
-		divide(-1, -1);
+		System.out.println(divide(-1, -1));
 	}
 
 }
