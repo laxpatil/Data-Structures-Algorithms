@@ -3,6 +3,8 @@
  */
 package leetcode;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -16,7 +18,7 @@ public class DecodeString {
 	 */
 
 	public static String decodeString(String s) {
-
+		
 		Stack<String> mainStack = new Stack<String>();
 		Stack<Integer> digitStack = new Stack<Integer>();
 
