@@ -16,9 +16,7 @@ public class z3 {
         	String[] parts=p.split(" ");
         	
         	HashMap<String, String> m=new  HashMap<String, String>();
-        	
-        	String k.
-        	if(m.containsKey())
+
         	
         }
 	}

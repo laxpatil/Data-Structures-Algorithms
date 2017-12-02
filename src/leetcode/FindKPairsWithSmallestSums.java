@@ -9,10 +9,6 @@ package leetcode;
  */
 public class FindKPairsWithSmallestSums {
 	
-	 public static List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-	        
-	    }
-	
 	
 	/**
 	 * @param args

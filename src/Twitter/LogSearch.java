@@ -6,9 +6,9 @@ package Twitter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.time.LocalTime;
 
 /**
  * @author Laxmikant
@@ -22,7 +22,7 @@ public class LogSearch {
 	
 	  
 
-	public Collection<String> search(Collection<String> logLines, LocalTime startDate, LocalTime endDate) {
+	public Collection<String> search(Collection<String> logLines, Locale startDate, Locale endDate) {
 
 			  	Collection<String> result = new ArrayList<String>();
 			  	
